@@ -46,6 +46,6 @@ async def on_message(message):
     if message.content.startswith("이프"):
         await message.channel.send("나보다 못한년 ㅋ")
 
-        
-       
+
 client.run("ODA4MzU5NDMzMTc2MDg4NTc2.YCFZYw.RKq1ohV7GL3OaguBFEAa1qbd4AM")
+
