@@ -1,5 +1,5 @@
 import discord
-from discord import Client
+import os
 
 client = discord.Client()
 
@@ -47,5 +47,6 @@ async def on_message(message):
         await message.channel.send("나보다 못한년 ㅋ")
 
 
-client.run("ODA4MzU5NDMzMTc2MDg4NTc2.YCFZYw.RKq1ohV7GL3OaguBFEAa1qbd4AM")
+access_token = os.environ["BOT_TOKEN"]
+client.run("access_token")
 
